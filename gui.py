@@ -50,7 +50,7 @@ while True:
             todos.remove(todo_to_complete)
             functions.write_todos(todos)
             window['todos'].update(values=todos)
-            window['todo'].update(values="")
+            window['todo'].update(value="")
         case 'Exit':
             break
         case 'todos':
